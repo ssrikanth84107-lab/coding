@@ -1,0 +1,12 @@
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary INT
+);
+
+INSERT INTO employees VALUES
+(1, 'Riya', 30000),
+(2, 'Karan', 28000),
+(3, 'Nisha', 35000);
+
+SELECT * FROM employees;
